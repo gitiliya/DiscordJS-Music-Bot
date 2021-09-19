@@ -7,7 +7,6 @@ const {
     NoSubscriberBehavior,
 	createAudioPlayer,
 	createAudioResource,
-	joinVoiceChannel,
 } = require('@discordjs/voice');
 
 module.exports = {
@@ -43,6 +42,7 @@ module.exports = {
         connection.subscribe(player);
 
         await interaction.reply('Now Playing!')
+
 
         player.on(AudioPlayerStatus.Idle, () => {
             player.stop()
