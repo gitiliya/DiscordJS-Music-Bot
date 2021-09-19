@@ -1,6 +1,10 @@
 # Test Bot That Im Working On With DJS/Voice
 
+Tested With `Node 16.9.1`
+
 Best used for reference.
+
+
 
 ## Config
 `token` < This is your bots token.
