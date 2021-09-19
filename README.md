@@ -5,7 +5,7 @@
 "clientId" < This is your clients id which could be found in OAUTH2
 "guildId" < The guild you want the slash commands to be applied to.
 
-##Usage
+#Usage
 
 Fill out the config
 
