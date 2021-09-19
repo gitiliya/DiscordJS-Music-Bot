@@ -1,11 +1,13 @@
 # Test Bot That Im Working On With DJS/Voice
 
 ## Config
-"token" < This is your bots token.
-"clientId" < This is your clients id which could be found in OAUTH2
-"guildId" < The guild you want the slash commands to be applied to.
+`token` < This is your bots token.
 
-###Usage
+`clientId` < This is your clients id which could be found in OAUTH2
+
+`guildId` < The guild you want the slash commands to be applied to.
+
+## Usage
 
 Fill out the config
 
