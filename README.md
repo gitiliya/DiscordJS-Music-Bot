@@ -1,5 +1,7 @@
 # Test Bot That Im Working On With DJS/Voice
 
+Best used for reference.
+
 ## Config
 `token` < This is your bots token.
 
