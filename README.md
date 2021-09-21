@@ -17,7 +17,7 @@ Best used for reference.
 
 ## Usage
 
-Install Dependencies.
+Install Dependencies
 `npm i`
 
 Fill out the config
@@ -25,5 +25,5 @@ Fill out the config
 Run deploy-commands.js
 `node deploy-commands.js`
 
-Now, just run the bot.
+Now, just run the bot
 `node .`
