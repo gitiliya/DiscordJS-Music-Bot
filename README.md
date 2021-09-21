@@ -1,3 +1,5 @@
+![](https://img.shields.io/badge/SOURCERY-ENABLED-green?style=for-the-badge) <a href=""><img 
+
 # Test Bot That Im Working On With DJS/Voice
 
 Tested With `Node 16.9.1`
