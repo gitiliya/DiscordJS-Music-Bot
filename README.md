@@ -1,3 +1,5 @@
+Deploy On [Replit](https://replit.com/github/gitiliya/DiscordJS-Music-Bot).
+
 # Test Bot That Im Working On With DJS/Voice
 
 Tested With `Node 16.9.1`
