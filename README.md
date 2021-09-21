@@ -17,6 +17,9 @@ Best used for reference.
 
 ## Usage
 
+Install Dependencies.
+`npm i`
+
 Fill out the config
 
 Run deploy-commands.js
