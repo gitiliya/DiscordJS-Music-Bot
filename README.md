@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/SOURCERY-ENABLED-green?style=for-the-badge) <a href=""><img 
+![](https://newsletter-images--timmy-i-chen.repl.co/logo-light.png) <a href="https://replit.com/github/gitiliya/DiscordJS-Music-Bot">
 
 # Test Bot That Im Working On With DJS/Voice
 
