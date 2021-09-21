@@ -1,4 +1,4 @@
-![](https://newsletter-images--timmy-i-chen.repl.co/logo-light.png) <a href="https://replit.com/github/gitiliya/DiscordJS-Music-Bot">
+### ![](https://newsletter-images--timmy-i-chen.repl.co/logo-light.png) <a href="https://replit.com/github/gitiliya/DiscordJS-Music-Bot">
 
 # Test Bot That Im Working On With DJS/Voice
 
