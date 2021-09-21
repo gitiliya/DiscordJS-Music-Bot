@@ -1,9 +1,7 @@
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const play = require('play-dl');
-const { join } = require('path');
 const {
 	AudioPlayerStatus,
-	StreamType,
     NoSubscriberBehavior,
 	createAudioPlayer,
 	createAudioResource,
@@ -19,13 +17,19 @@ module.exports = {
 			.setRequired(true)),
     async execute(interaction, args) {
         const { joinVoiceChannel } = require('@discordjs/voice');
+
+        if(!interaction.member.voice?.channel) return interaction.reply('Please Join A VC!')
+
         const connection = joinVoiceChannel({
             channelId: interaction.member.voice.channel.id,
             guildId: interaction.channel.guild.id,
             adapterCreator: interaction.channel.guild.voiceAdapterCreator,
         });
 
+    
         const ytlink = interaction.options.getString('link')
+
+        console.log(`${interaction.user.tag} just played ${ytlink} !`);
 
         const stream = await play.stream(ytlink);
         const resource = createAudioResource(stream.stream, {
@@ -41,12 +45,11 @@ module.exports = {
 
         connection.subscribe(player);
 
-        await interaction.reply('Now Playing!')
+        await interaction.reply(`Now Playing **${ytlink}** !`);
 
 
         player.on(AudioPlayerStatus.Idle, () => {
             player.stop()
-            connection.destroy()
             interaction.followUp('Music Done Playing!:)')
         })
     },
